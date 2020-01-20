@@ -1,0 +1,16 @@
+.card-detail__back-button {
+    width: 150px;
+    height: 50px;
+
+    margin: 20px 0 0 20px;
+
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 2px;
+
+    font-size: 18px;
+    color: white;
+
+    background-color: #000000;
+
+    cursor: pointer;
+}
