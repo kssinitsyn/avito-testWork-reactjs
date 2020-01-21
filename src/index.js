@@ -4,9 +4,10 @@ import ReactDOM from 'react-dom';
 import './vendor/normalize.css'
 import './style.css';
 
+import Loader from './components/loader'
 import CardListRender from './components/cardList';
 
-
+// Тестовые статические данные
 const data = [
   {
       "id": 1837300862,
@@ -81,6 +82,9 @@ const data = [
   }
 ]
 
+// нужно цеплять данные по fetch, нужен роутинг
+
+// Рендер листа с карточками в который прокидываем статические данные для создания экземпляра карточки
 ReactDOM.render(
   <CardListRender props={data} />, document.getElementById('root')
 ) 

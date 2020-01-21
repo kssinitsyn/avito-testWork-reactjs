@@ -1,6 +1,7 @@
 import React from "react"
 import "../style.css"
 
+// Экземпляр карточки
 const Card = (props) => {
     return (
         <li key={props.item.id} id={props.item.id} className="card__item">

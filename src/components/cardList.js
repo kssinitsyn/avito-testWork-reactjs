@@ -2,6 +2,7 @@ import React from 'react';
 import Card from './card';
 import '../style.css';
 
+
 const CardList = (props) => {
   return (
     <ul className="card__list">
