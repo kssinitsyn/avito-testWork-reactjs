@@ -1,9 +1,10 @@
 import React from 'react'
 import '../style.css'
 
-// Лоадер при получении данных с сервера
 const Loader = () => {
-    
+    return (
+        <div className="loader"><div></div><div></div><div></div><div></div></div>
+    )
 }
 
 export default Loader;
