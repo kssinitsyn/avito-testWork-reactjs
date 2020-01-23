@@ -22,7 +22,7 @@ export default class CardList extends React.Component {
         .then(res => res.json())
         .then(res => this.setState({
           data: res,
-          isFetching: false,
+          isFetching: false
         }))
         // Ошибка валит все, надо разобраться
         .catch(e => this.setState({

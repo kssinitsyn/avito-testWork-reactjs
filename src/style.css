@@ -1,1 +1,20 @@
 @import url('./pages/index.css');
+
+.carousel-cell {
+    width: 100%; /* full width */
+    height: 400px;
+    background: #fff;
+    /* center images in cells with flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel.is-fullscreen .carousel-cell {
+    height: 100%;
+  }
+  
+  .carousel-cell img {
+    display: block;
+    max-height: 100%;
+  }

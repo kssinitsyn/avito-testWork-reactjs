@@ -1,7 +1,3 @@
 .card-detail__gallery-item {
-    width: 25%;
-    
-    margin-right: 15px;
-
-    display: flex;
+    margin-right: 25px;
 }
